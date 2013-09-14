@@ -1,0 +1,51 @@
+html {
+	background: #000;
+	height: 100%;
+}
+ 
+body {
+	background: #000;
+	width: 500px;
+	margin: 0 auto;
+	height: 100%;
+	font-family: Helvetica, sans-serif;
+ 
+}
+ 
+body > div#root {
+	height: auto;
+	min-height: 100%;
+}
+ 
+div#root {
+	height: 100%;
+}
+ 
+header {
+	background: #ccc;
+	display: block;
+	height: 50px;
+	padding: 20px;
+	-moz-border-radius:0px 0px 10px 10px ;
+	-webkit-border-radius:0px 0px 10px 10px ;
+	border-radius:0px 0px 10px 10px ;
+}
+ 
+footer {
+	background: #ccc;
+	display: block;
+	height: 100px;           /* set the footer height */
+	margin-top: -100px;      /* match footer height */
+	padding: 20px 10px 10px 10px;
+	text-align: right;
+	border-radius: 10px;
+}
+ 
+section {
+	background: #FFE;
+	display: block;
+	padding: 20px;   /* bottom matches footer height */
+	border-radius: 10px;
+	border-top: 50px solid black;
+	
+}
