@@ -45,8 +45,8 @@ header {
 footer {
 	background: silver;
 	display: block;
-	height: 50px;           /* set the footer height */
-	margin-top: -10px;      /* match footer height */
+	height: 40px;           /* set the footer height */
+	margin-top: -45px;      /* match footer height */
 	padding: 5px 20px 10px 20px;
 	text-align: right;
 	border-radius: 10px;
