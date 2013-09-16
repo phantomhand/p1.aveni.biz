@@ -1,14 +1,15 @@
 html {
-	background: #000;
+	background: black;
 	height: 100%;
 }
  
 body {
-	background: #000;
+	background: black;
 	width: 500px;
 	margin: 0 auto;
 	height: 100%;
 	font-family: Helvetica, sans-serif;
+	line-height: 1.5;
  
 }
  
@@ -16,36 +17,48 @@ body > div#root {
 	height: auto;
 	min-height: 100%;
 }
+
  
 div#root {
 	height: 100%;
 }
+
+a:link { 
+	text-decoration: none;
+	color: rgba(50, 100, 255, 1);
+}
+
+a:hover {
+	color: rgba(50, 100, 185, 1);
+}
  
 header {
-	background: #ccc;
+	background: silver;
 	display: block;
 	height: 50px;
-	padding: 20px;
+	padding: 1px 20px 20px 20px;
 	-moz-border-radius:0px 0px 10px 10px ;
 	-webkit-border-radius:0px 0px 10px 10px ;
 	border-radius:0px 0px 10px 10px ;
 }
  
 footer {
-	background: #ccc;
+	background: silver;
 	display: block;
-	height: 100px;           /* set the footer height */
-	margin-top: -100px;      /* match footer height */
-	padding: 20px 10px 10px 10px;
+	height: 50px;           /* set the footer height */
+	margin-top: -10px;      /* match footer height */
+	padding: 5px 20px 10px 20px;
 	text-align: right;
 	border-radius: 10px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
 }
  
 section {
-	background: #FFE;
+	background: white;
 	display: block;
-	padding: 20px;   /* bottom matches footer height */
+	padding: 5px 20px 10px 20px;   /* bottom matches footer height */
 	border-radius: 10px;
-	border-top: 50px solid black;
+	border-top: 20px solid black;
 	
 }
